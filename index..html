@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Bin to Dec</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Convertendo Binario para Decimal</h1>
+    </header>
+    <section class="section">
+      <form id="form">
+        <div class="form-group">
+          <label for="binario" class="title">
+            <h3>Insira binário - até oito casas</h3></label
+          >
+          <div id="information" class="information"></div>
+        </div>
+
+        <input type="text" id="binary" maxlength="8" />
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="resultado-pai">
+        <label for="resultado">Resultado da conversão para decimal:</label>
+        <div id="result" class="result"></div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
